@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+#app {
+    height: 100dvh;
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 16px;
+    text-transform: uppercase;
+    background-image: url(./img/wall.png);
+    background-repeat: no-repeat;
+    background-size: 390%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    /* background-color: white; */
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.text-icon {
+    font-size: 12px;
+}
+
+
+.center {
+    height: 100%;
+}
+
+
+
+.col-4 {
+    /* height: 100px; */
+    padding: 0;
+    margin: 0;
+}
+
+/* .icon-link:hover,
+.icon-link:active,
+.icon-link:active {
+    transform: scale(0.5);
+} */
+
+.container .row .col-4 .image {
+     width: 100% !important;
+    height: 100% !important;
+
+}
+
+.spot-web {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text-i {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
