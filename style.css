@@ -31,6 +31,15 @@ a {
 
 }
 
+ .image {
+    transition: transform .7s ease-in-out;
+    
+}
+
+a:hover .image {
+    transform: rotate(360deg);
+}
+
 .text-icon {
     font-size: 12px;
 }
